@@ -1,0 +1,91 @@
+<html>
+
+<head>
+    <style>
+        .txt {
+            size: 200px;
+        }
+        
+        img {
+            width: 400;
+            height: 200;
+            border: 5px;
+            border-color: khaki;
+            border-style: groove;
+        }
+        
+        img:hover {
+            width: 600;
+            height: 300;
+            transition-property: all;
+            transition-timing-function: ease-in-out;
+            transition-duration: 5s;
+        }
+        
+        .img:focus {
+            visibility: hidden;
+        }
+        
+        .pages {
+            background-color: khaki;
+            width: 100%;
+        }
+        
+        .pag {
+            background-color: black;
+            color: khaki;
+            width: 16.35%;
+        }
+        
+        .pag:hover {
+            color: black;
+            background-color: khaki;
+        }
+        
+        body {
+            background-color: black;
+        }
+    </style>
+    <div class="pages">
+
+        <button class="pag">
+        <a href="Home.html"  class="pag" >Home</a>
+       </button>
+        <button class="pag">
+        <a href="Hobbies.html"  class="pag" >My Hobbies</a>
+       </button>
+        <button class="pag">
+            <a href="birthday.html"  class="pag" >My birthday</a>
+        </button>
+        <button class="pag">
+            <a href="contact us.html"  class="pag" >contact us</a>
+        </button>
+        <button class="pag">
+            <a href="slider.html"  class="pag" >some countries</a>
+        </button>
+        <button class="pag">
+            <a href="cv page.html" class="pag">My CV</a>
+        </button>
+    </div>
+</head>
+
+<body>
+    <br>
+    <div align="center">
+        <img src="file:///C:/Users/kramh/OneDrive/Desktop/Task%20HTML%20&&%20CSS/Task%20HTML%20&&%20CSS/photo/my_birthday" alt="My Birthday" class="img" width="500" height="300">
+    </div>
+    <div align="center">
+        <br>
+        <form action="thank you.html">
+            <textarea name="message" id="1" cols="30" rows="10" class="txt">Give me a nice message</textarea>
+            <br>
+            <button type="submit">Send</button>
+
+        </form>
+
+    </div>
+
+
+</body>
+
+</html>
